@@ -1,0 +1,1781 @@
+<div id="ph-main-right">
+  <div class="component" id="EfbetAccountsDetailsComponent21" style="display: block;"></div>
+  <div class="betslip bslayer" id="EfbetBetSLipComponent22" style="display: none;">
+    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display: none;">
+      <span id="EfbetBetSLipComponent22-banker-sign">B</span><span id="EfbetBetSLipComponent22-not-loggedin">Please
+        login</span>
+    </div>
+    <xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display:none;"
+      id="EfbetBetSLipComponent22-strings">
+      <string english="Added to betslip">Added to betslip</string>
+    </xml>
+    <p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><a class="betsliptitle mybetsenabled active"
+        id="EfbetBetSLipComponent22-betslipLabel" behavior.id="OpenBetSlip" behavior.autobind.openbetslip="onclick">
+        Betslip
+        <span class="num-bets" style="display: none;" id="EfbetBetSLipComponent22-num-bets" title="
+      Bets added into Betslip
+    ">1</span></a><a class="betsliptitle mybetsenabled" id="EfbetBetSLipComponent22-mybetsLabel"
+        behavior.id="OpenMyBets" behavior.autobind.openmybets="onclick">
+        My Bets
+        <span class="num-cashouts" style="display: inherit;" id="EfbetBetSLipComponent22-num-cashouts" title="
+        Bets available for Cash Out
+      ">13</span></a><a href="#" class="helpicon" behavior.id="NavigateToBetslipHelp"
+        behavior.autobind.navigatetobetsliphelp="onclick" behavior.navigatetobetsliphelp.helparea="help"
+        behavior.navigatetobetsliphelp.helpaction="pr_37&amp;page=pr_37&amp;psection=help" title="Betslip help">
+        Betslip help
+      </a><a href="#" class="reloadicon" behavior.id="ReloadBetslip" behavior.autobind.reloadbetslip="onclick"
+        title="Reload">
+        Reload
+      </a></p>
+    <div style="display:none" class="bspanel" id="EfbetBetSLipComponent22-no-funds-panel">
+      <div class="bspanel noFundsPanelInner">
+        <div class="bspanel closeButton" behavior.id="CloseNoFundsPanel" behavior.autobind.closenofundspanel="onclick"
+          title="Close"></div>
+        <div class="bspanel exclamationIcon"></div>
+        <div class="bspanel messageNoFunds">No funds in your account</div>
+        <div class="bspanel depositButton" behavior.id="NavigateToBetslipHelp"
+          behavior.autobind.navigatetobetsliphelp="onclick" behavior.navigatetobetsliphelp.helparea="Accounting"
+          behavior.navigatetobetsliphelp.helpaction="deposit"
+          behavior.navigatetobetsliphelp.helpfilter="&amp;maintab=deposit-withdrawal&amp;subtab=deposit"
+          title="Deposit now">
+          Deposit now
+        </div>
+      </div>
+    </div>
+    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" class="betslip-inner"
+      id="EfbetBetSLipComponent22-betslipContainer">
+      <div class="bsheader" id="EfbetBetSLipComponent22-betslip-main">
+        <div class="bsbody placeholder" id="EfbetBetSLipComponent22-bsbody">
+          <form class="bsform">
+            <div id="EfbetBetSLipComponent22-table">
+              <div class="nbs-headers">
+                <div class="nbs-headers-selection">
+                  Selection
+                </div>
+                <div class="nbs-headers-hcp"></div>
+                <div class="nbs-headers-odds">
+                  Odds
+                </div>
+              </div>
+              <div class="nbs-selection">
+                <div class="suspendCover"></div>
+                <div class="nbs-selection-top">
+                  <a href="#" class="nbs-remove" behavior.id="RemoveSelection"
+                    behavior.autobind.removeselection="onclick" behavior.removeselection.idfoselection="1950846117.1">
+                    remove
+                  </a>
+                  <div class="nbs-selection-name"
+                    title="Song Lam Nghe An v Becamex Binh Duong : Song Lam Nghe An Goals Over / Under 1.5">Under 1.5
+                    <div class="event-data">
+                      <div class="market" title="Song Lam Nghe An Goals Over / Under 1.5">Song Lam Nghe An Goals Over /
+                        Under 1.5</div>
+                      <div class="event-name" title="Song Lam Nghe An v Becamex Binh Duong">Song Lam Nghe An v Becamex
+                        Binh Duong</div>
+                    </div>
+                  </div>
+                  <div class="nbs-hcp"><span class="nbs-hide">.</span></div>
+                  <div class="banker hidden" id="EfbetBetSLipComponent22-1950846117.1-banker" behavior.id="SelectBanker"
+                    behavior.autobind.selectbanker="onclick" behavior.selectbanker.idfoselection="1950846117.1"><span
+                      class="banker-value">B</span></div>
+                  <div class="nbs-stakeinput">
+                    <input maxlength="7" class="bsstake num" size="10" type="text" placeholder="STAKE"
+                      id="EfbetBetSLipComponent22-1950846117.1-unit-stake"
+                      behavior.id="SetStakePerSelection|StakeLostFocus" behavior.autobind.setstakeperselection="onkeyup"
+                      behavior.setstakeperselection.idfoselection="1950846117.1"
+                      behavior.autobind.stakelostfocus="onblur" value="NaN">
+                    <div class="nbs-odds ">1.48</div>
+                    <div class="nbs-selection-bottom" id="EfbetBetSLipComponent22-1950846117.1-bottom">
+                      <div class="nbs-selinfo">
+                        .
+                        <span>Song Lam Nghe An v Becamex Binh Duong : Song Lam Nghe An Goals Over / Under 1.5</span>
+                      </div>
+                      <div class="nbs-towinlabel">
+                        To return:
+                      </div>
+                      <div class="nbs-towininput">
+                        <span id="EfbetBetSLipComponent22-1950846117.1-to-win-label">2.96</span><input maxlength="7"
+                          class="bstowinS num" size="8" type="text" id="EfbetBetSLipComponent22-1950846117.1-to-win"
+                          behavior.id="ChangeStakeForToWin|SetStakeForToWin"
+                          behavior.autobind.changestakefortowin="onkeyup"
+                          behavior.changestakefortowin.idfoselection="1950846117.1"
+                          behavior.changestakefortowin.priceup="12" behavior.changestakefortowin.pricedown="25"
+                          behavior.autobind.setstakefortowin="onblur"
+                          behavior.setstakefortowin.idfoselection="1950846117.1" behavior.setstakefortowin.priceup="12"
+                          behavior.setstakefortowin.pricedown="25"><input type="hidden"
+                          id="EfbetBetSLipComponent22-1950846117.1-potential-return" value="2.96">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="nbs-clear">.</div>
+                <div class="nbs-clear">.</div>
+                <div class="nbs-selection-footer" id="EfbetBetSLipComponent22-1950846117.1-footer"></div>
+                <div class="nbs-clear">.</div>
+                <div class="nbs-qualify-streaming" style="display:none;"
+                  id="EfbetBetSLipComponent22-1950846117.1-qualify-for-streaming">
+                  Increase your stake to a
+                  <span>€1
+                  </span><br>
+                  to watch the race live.
+                </div>
+                <div class="nbs-clear">.</div>
+              </div>
+              <div class="freebet-div" id="EfbetBetSLipComponent22-is-free-label" style="display:none">
+                <input type="checkbox" id="EfbetBetSLipComponent22-is-free" behavior.id="SetIsFree"
+                  behavior.autobind.setisfree="onclick"><label for="EfbetBetSLipComponent22-is-free">
+                  Place bet with bonus (max. <span id="EfbetBetSLipComponent22-freebet-balance">0.00</span> )
+                </label><a href="#" behavior.id="ShowFreeBetTerms" behavior.autobind.showfreebetterms="onclick"></a>
+              </div>
+              <div style="display:block;">
+                <div class="cr" id="EfbetBetSLipComponent22-bet-options-container">
+                  <h3 style="display:block" id="EfbetBetSLipComponent22-options-top" behavior.id="ToggleOptions"
+                    behavior.autobind.toggleoptions="onclick">
+                    <span></span>
+                    Bet options
+                  </h3>
+                  <div class="options">
+                    <label><input type="checkbox" id="EfbetBetSLipComponent22-retain-selections-after-placement"
+                        behavior.id="SetRetainSelectionsAfterPlacement"
+                        behavior.autobind.setretainselectionsafterplacement="onclick">
+                      Retain selections in slip after placement
+                    </label><br><label id="EfbetBetSLipComponent22-accept-automatic-re-offers-label"><input
+                        type="checkbox" id="EfbetBetSLipComponent22-accept-automatic-re-offers"
+                        behavior.id="SetAcceptAutomaticReOffers" behavior.autobind.setacceptautomaticreoffers="onclick">
+                      Accept automatic re-offers?
+                    </label>
+                  </div>
+                  <h3 style="display:none" id="EfbetBetSLipComponent22-options-bottom" behavior.id="ToggleOptions"
+                    behavior.autobind.toggleoptions="onclick">
+                    <span></span>
+                    Bet options
+                  </h3>
+                </div>
+              </div>
+              <div class="nbs-exclamation oc_message" id="EfbetBetSLipComponent22-oc-selections-appended"
+                style="display:none;">
+                <span class="icon"></span>
+                Please note your selections have been appended to the existing selections in your betslip.
+              </div>
+              <div class="nbs-exclamation oc_message" id="EfbetBetSLipComponent22-oc-price-changed"
+                style="display:none;">
+                <span class="icon"></span>
+                Please note the price for one of more of your selections has changed.
+              </div>
+              <div class="nbs-exclamation oc_error" id="EfbetBetSLipComponent22-oc-error" style="display:none;">
+                <span class="icon"></span>
+                An error occured, could not add a selection to bet slip.
+              </div>
+              <div class="nbs-exclamation oc_error" id="EfbetBetSLipComponent22-oc-selection-count-exceeded"
+                style="display:none;">
+                <span class="icon"></span>
+                Maximum number of selections in Betslip reached.
+              </div>
+              <div id="EfbetBetSLipComponent22-freebet-stake-too-high" class="
+  nbs-exclamation  invisible">
+                <span class="icon"></span>
+                The stake unit is too high! Max bet:
+                <span id="EfbetBetSLipComponent22-freebet-stake-max">0.00</span>
+              </div>
+              <div class="nbs-exclamation" style="display:none;" id="EfbetBetSLipComponent22-no-funds-message-1">
+                <span></span><a href="#" behavior.id="NavigateToBetslipHelp"
+                  behavior.autobind.navigatetobetsliphelp="onclick" behavior.navigatetobetsliphelp.helparea="Accounting"
+                  behavior.navigatetobetsliphelp.helpaction="deposit"
+                  behavior.navigatetobetsliphelp.helpfilter="&amp;maintab=deposit-withdrawal&amp;subtab=deposit">
+                  Insufficient funds in your account! Click here to make deposit.
+                </a>
+              </div>
+              <div class="nbs-exclamation" style="display:none;" id="EfbetBetSLipComponent22-no-funds-message-2">
+                <span></span>
+                You do not have sufficient free balance on your account for this bet. Please amend your stake to place
+                the bet using your free balance.
+              </div>
+            </div>
+            <div class="freebet-info-lb invisible" id="EfbetBetSLipComponent22-freebet-info-lb">
+              <div class="overlay"></div>
+              <div class="freebet-info-lb-inner">
+                <h1>
+                  Terms and conditions
+                  <a href="#" class="close" behavior.id="HideFreeBetTerms"
+                    behavior.autobind.hidefreebetterms="onclick"></a>
+                </h1>
+                <p>
+                  In the event that the participant bet only free bet in profit it remains only the amount of net
+                  profit.
+
+                  For example: participant bet free bet € 10 at odds 2.50.
+
+                  If you know will win € 10 (free bet) x 2.50 (ratio) = 25-10 euros. (free bet) = € 15 (net).
+                </p>
+              </div>
+            </div>
+            <div class="bs-footer-buttons">
+              <div class="btnYellow" behavior.id="PlaceBet" behavior.autobind.placebet="onclick"><span>Place bet <span
+                    id="EfbetBetSLipComponent22-total-stake">2.00</span><span style="display: inline;"
+                    id="EfbetBetSLipComponent22-total-stake-currency">€</span></span></div>
+              <div class="hideButton" style="display: block;" id="EfbetBetSLipComponent22-placebetbutton"></div>
+              <div class="bsbut bsbutno" href="#" behavior.id="RemoveAllSelections"
+                behavior.autobind.removeallselections="onclick">
+                Clear Slip
+              </div>
+            </div>
+            <div style="display:none;">
+              <div id="EfbetBetSLipComponent22-error-login">Login failed, try again later</div>
+              <div id="EfbetBetSLipComponent22-error-login-wrongs">Wrong username or password</div>
+              <div id="EfbetBetSLipComponent22-error-login-missings">Missing username or password</div>
+              <div id="EfbetBetSLipComponent22-error-stake">Stake must be greater than zero</div>
+              <div id="EfbetBetSLipComponent22-error-selection">Please choose a selection
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="betslipOverlay" style="display:none;" id="EfbetBetSLipComponent22-betslip-login-overlay"></div>
+        <div class="betslip-login" style="display:none;" id="EfbetBetSLipComponent22-betslip-login">
+          <form class="loginformbetslip">
+            <div class="loginprogress" id="EfbetBetSLipComponent22-loginprogress">
+              Please wait, login in progress...
+            </div>
+            <fieldset id="EfbetBetSLipComponent22-loginfieldset">
+              <div class="close-icon" behavior.id="CloseBetslipLogin" behavior.autobind.closebetsliplogin="onclick">
+              </div>
+              <p id="EfbetBetSLipComponent22-loginfieldset-heading"><strong>
+                  Please Login To Place A Bet
+                </strong></p>
+              <p><input type="text" name="username" size="10" maxlength="30" class="nameTxt"
+                  id="EfbetBetSLipComponent22-username" behavior.id="UsernameOnFocus|UsernameOnBlur"
+                  behavior.autobind.usernameonfocus="onfocus" behavior.autobind.usernameonblur="onblur" value="
+                  Username:
+                "></p>
+              <p><input type="password" name="password" size="10" maxlength="30" class="passTxt"
+                  id="EfbetBetSLipComponent22-password" behavior.id="PasswordOnFocus|PasswordOnBlur"
+                  behavior.autobind.passwordonfocus="onfocus" behavior.autobind.passwordonblur="onblur" value="
+                  Password:
+                "></p>
+              <p><input class="submit" type="submit" behavior.id="Login" behavior.autobind.login="onclick" value="
+                  Login
+                "></p>
+              <p><a title="Forgot your password?" class="betslip-forgotpassword" behavior.id="GoTo"
+                  behavior.autobind.goto="onclick" behavior.goto.pagearea="Accounting"
+                  behavior.goto.pagefilter="{'action':'forgotten-password'}">
+                  Forgot your password?
+                </a></p>
+            </fieldset>
+          </form>
+          <div class="new-customer" id="EfbetBetSLipComponent22-newcustomer">
+            <p><strong>
+                New Customer?
+              </strong></p>
+            <div class="open-account" behavior.id="GoTo" behavior.autobind.goto="onclick"
+              behavior.goto.pagearea="Accounting" behavior.goto.pagefilter="{'action':'register'}"><a href="#"
+                title="Open Account">
+                Open Account
+              </a></div>
+            <div class="clear"></div>
+          </div>
+          <div class="bslayer-login" id="EfbetBetSLipComponent22-bslayer-login"></div>
+        </div>
+      </div>
+    </div>
+    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" class="mybets-inner"
+      id="EfbetBetSLipComponent22-mybetsContainer" style="display: none;">
+      <div class="mybets-header">
+        <ul>
+          <li><a id="EfbetBetSLipComponent22-mybetsCashOutLink" behavior.id="DisplayCashOut"
+              behavior.autobind.displaycashout="onclick" class="betsliptitle mybetsenabled active">
+              Cash Out
+            </a></li>
+          <li><a id="EfbetBetSLipComponent22-mybetsUnsettled" behavior.id="DisplayUnsettled"
+              behavior.autobind.displayunsettled="onclick" class="betsliptitle mybetsenabled">
+              Unsettled
+            </a></li>
+        </ul>
+      </div>
+      <div class="cashout-inner" id="EfbetBetSLipComponent22-mybetsCashOutContainer" style="">
+        <div class="bet-container" id="EfbetBetSLipComponent22-betcontainer-cashout-271534484.1">
+          <div class="reofferDiv" style="display: none;" id="EfbetBetSLipComponent22-reoffer-cashout-271534484.1">
+            Reoffer
+          </div>
+          <div class="suspendedDiv" id="EfbetBetSLipComponent22-suspended-cashout-271534484.1" style="
+                    display: none;
+                  ">
+            Suspended
+          </div>
+          <div class="selection-title">
+            <span>No</span><span>2.32</span>
+          </div>
+          <div class="selection-data">
+            <div class="date" title="12.04.2021 12:45">12.04.2021 12:45</div>
+            <div class="event-data">
+              <div class="market" title="Both Teams To Score">Both Teams To Score</div>
+              <div class="event-name" title="Adelaide Blue Eagles v Adelaide Raiders">Adelaide Blue Eagles v Adelaide
+                Raiders</div>
+            </div>
+            <div class="event-betleg">
+              <div title="Open" class="Open"></div>
+            </div>
+          </div>
+          <div class="bet-common">
+            <div class="bet-type">Single</div>
+            <div class="bet-stake">
+              <span>
+                Stake:
+              </span><span>0.84</span><span>€</span>
+            </div>
+            <div class="bet-potential-ret">
+              <span>
+                Est. Returns:
+              </span><span>1.95</span><span>€</span>
+            </div>
+            <div class="cashout-button ready" id="EfbetBetSLipComponent22-cashout-ready-cashout-271534484.1" style="
+                        display: block;
+                      " behavior.id="DoCashOut" behavior.autobind.docashout="onclick"
+              behavior.docashout.idfobet="271534484.1" behavior.docashout.expectedvalue="1.22">
+              <span>
+                Cash Out
+              </span><span id="EfbetBetSLipComponent22-cashout-span-cashout-271534484.1">1.22</span><span>€</span>
+            </div>
+            <div class="cashout-button done" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-done-cashout-271534484.1">
+              <span>
+                Cashed out
+              </span><span id="EfbetBetSLipComponent22-cashout-done-span-cashout-271534484.1"></span>
+            </div>
+            <div class="cashout-button busy" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-busy-cashout-271534484.1">
+              Cashing Out...
+            </div>
+            <div class="cashout-button unavailable" id="EfbetBetSLipComponent22-cashout-unavailable-cashout-271534484.1"
+              style="
+                        display: none;
+                      ">
+              Cash Out Unavailable
+            </div>
+          </div>
+        </div>
+        <div class="bet-container" id="EfbetBetSLipComponent22-betcontainer-cashout-271538108.1">
+          <div class="reofferDiv" style="display: none;" id="EfbetBetSLipComponent22-reoffer-cashout-271538108.1">
+            Reoffer
+          </div>
+          <div class="suspendedDiv" id="EfbetBetSLipComponent22-suspended-cashout-271538108.1" style="
+                    display: none;
+                  ">
+            Suspended
+          </div>
+          <div class="selection-title">
+            <span>No</span><span>2.00</span>
+          </div>
+          <div class="selection-data">
+            <div class="date" title="12.04.2021 13:00">12.04.2021 13:00</div>
+            <div class="event-data">
+              <div class="market" title="Both Teams To Score">Both Teams To Score</div>
+              <div class="event-name" title="Wolverhampton Wanderers U23 v Newcastle United U23">Wolverhampton Wanderers
+                U23 v Newcastle United U23</div>
+            </div>
+            <div class="event-betleg">
+              <div title="Open" class="Open"></div>
+            </div>
+          </div>
+          <div class="bet-common">
+            <div class="bet-type">Single</div>
+            <div class="bet-stake">
+              <span>
+                Stake:
+              </span><span>1.14</span><span>€</span>
+            </div>
+            <div class="bet-potential-ret">
+              <span>
+                Est. Returns:
+              </span><span>2.28</span><span>€</span>
+            </div>
+            <div class="cashout-button ready" id="EfbetBetSLipComponent22-cashout-ready-cashout-271538108.1" style="
+                        display: block;
+                      " behavior.id="DoCashOut" behavior.autobind.docashout="onclick"
+              behavior.docashout.idfobet="271538108.1" behavior.docashout.expectedvalue="0.92">
+              <span>
+                Cash Out
+              </span><span id="EfbetBetSLipComponent22-cashout-span-cashout-271538108.1">0.92</span><span>€</span>
+            </div>
+            <div class="cashout-button done" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-done-cashout-271538108.1">
+              <span>
+                Cashed out
+              </span><span id="EfbetBetSLipComponent22-cashout-done-span-cashout-271538108.1"></span>
+            </div>
+            <div class="cashout-button busy" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-busy-cashout-271538108.1">
+              Cashing Out...
+            </div>
+            <div class="cashout-button unavailable" id="EfbetBetSLipComponent22-cashout-unavailable-cashout-271538108.1"
+              style="
+                        display: none;
+                      ">
+              Cash Out Unavailable
+            </div>
+          </div>
+        </div>
+        <div class="bet-container" id="EfbetBetSLipComponent22-betcontainer-cashout-271538289.1">
+          <div class="reofferDiv" style="display: none;" id="EfbetBetSLipComponent22-reoffer-cashout-271538289.1">
+            Reoffer
+          </div>
+          <div class="suspendedDiv" id="EfbetBetSLipComponent22-suspended-cashout-271538289.1" style="
+                    display: none;
+                  ">
+            Suspended
+          </div>
+          <div class="selection-title">
+            <span>No</span><span>1.98</span>
+          </div>
+          <div class="selection-data">
+            <div class="date" title="12.04.2021 13:00">12.04.2021 13:00</div>
+            <div class="event-data">
+              <div class="market" title="Both Teams To Score">Both Teams To Score</div>
+              <div class="event-name" title="Wolverhampton Wanderers U23 v Newcastle United U23">Wolverhampton Wanderers
+                U23 v Newcastle United U23</div>
+            </div>
+            <div class="event-betleg">
+              <div title="Open" class="Open"></div>
+            </div>
+          </div>
+          <div class="bet-common">
+            <div class="bet-type">Single</div>
+            <div class="bet-stake">
+              <span>
+                Stake:
+              </span><span>1.15</span><span>€</span>
+            </div>
+            <div class="bet-potential-ret">
+              <span>
+                Est. Returns:
+              </span><span>2.28</span><span>€</span>
+            </div>
+            <div class="cashout-button ready" id="EfbetBetSLipComponent22-cashout-ready-cashout-271538289.1" style="
+                        display: block;
+                      " behavior.id="DoCashOut" behavior.autobind.docashout="onclick"
+              behavior.docashout.idfobet="271538289.1" behavior.docashout.expectedvalue="0.92">
+              <span>
+                Cash Out
+              </span><span id="EfbetBetSLipComponent22-cashout-span-cashout-271538289.1">0.92</span><span>€</span>
+            </div>
+            <div class="cashout-button done" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-done-cashout-271538289.1">
+              <span>
+                Cashed out
+              </span><span id="EfbetBetSLipComponent22-cashout-done-span-cashout-271538289.1"></span>
+            </div>
+            <div class="cashout-button busy" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-busy-cashout-271538289.1">
+              Cashing Out...
+            </div>
+            <div class="cashout-button unavailable" id="EfbetBetSLipComponent22-cashout-unavailable-cashout-271538289.1"
+              style="
+                        display: none;
+                      ">
+              Cash Out Unavailable
+            </div>
+          </div>
+        </div>
+        <div class="bet-container" id="EfbetBetSLipComponent22-betcontainer-cashout-271538348.1">
+          <div class="reofferDiv" style="display: none;" id="EfbetBetSLipComponent22-reoffer-cashout-271538348.1">
+            Reoffer
+          </div>
+          <div class="suspendedDiv" id="EfbetBetSLipComponent22-suspended-cashout-271538348.1" style="
+                    display: none;
+                  ">
+            Suspended
+          </div>
+          <div class="selection-title">
+            <span>No</span><span>1.98</span>
+          </div>
+          <div class="selection-data">
+            <div class="date" title="12.04.2021 13:00">12.04.2021 13:00</div>
+            <div class="event-data">
+              <div class="market" title="Both Teams To Score">Both Teams To Score</div>
+              <div class="event-name" title="Wolverhampton Wanderers U23 v Newcastle United U23">Wolverhampton Wanderers
+                U23 v Newcastle United U23</div>
+            </div>
+            <div class="event-betleg">
+              <div title="Open" class="Open"></div>
+            </div>
+          </div>
+          <div class="bet-common">
+            <div class="bet-type">Single</div>
+            <div class="bet-stake">
+              <span>
+                Stake:
+              </span><span>1.15</span><span>€</span>
+            </div>
+            <div class="bet-potential-ret">
+              <span>
+                Est. Returns:
+              </span><span>2.28</span><span>€</span>
+            </div>
+            <div class="cashout-button ready" id="EfbetBetSLipComponent22-cashout-ready-cashout-271538348.1" style="
+                        display: block;
+                      " behavior.id="DoCashOut" behavior.autobind.docashout="onclick"
+              behavior.docashout.idfobet="271538348.1" behavior.docashout.expectedvalue="0.92">
+              <span>
+                Cash Out
+              </span><span id="EfbetBetSLipComponent22-cashout-span-cashout-271538348.1">0.92</span><span>€</span>
+            </div>
+            <div class="cashout-button done" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-done-cashout-271538348.1">
+              <span>
+                Cashed out
+              </span><span id="EfbetBetSLipComponent22-cashout-done-span-cashout-271538348.1"></span>
+            </div>
+            <div class="cashout-button busy" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-busy-cashout-271538348.1">
+              Cashing Out...
+            </div>
+            <div class="cashout-button unavailable" id="EfbetBetSLipComponent22-cashout-unavailable-cashout-271538348.1"
+              style="
+                        display: none;
+                      ">
+              Cash Out Unavailable
+            </div>
+          </div>
+        </div>
+        <div class="bet-container" id="EfbetBetSLipComponent22-betcontainer-cashout-271538448.1">
+          <div class="reofferDiv" style="display: none;" id="EfbetBetSLipComponent22-reoffer-cashout-271538448.1">
+            Reoffer
+          </div>
+          <div class="suspendedDiv" id="EfbetBetSLipComponent22-suspended-cashout-271538448.1" style="
+                    display: none;
+                  ">
+            Suspended
+          </div>
+          <div class="selection-title">
+            <span>No</span><span>1.94</span>
+          </div>
+          <div class="selection-data">
+            <div class="date" title="12.04.2021 13:00">12.04.2021 13:00</div>
+            <div class="event-data">
+              <div class="market" title="Both Teams To Score">Both Teams To Score</div>
+              <div class="event-name" title="Wolverhampton Wanderers U23 v Newcastle United U23">Wolverhampton Wanderers
+                U23 v Newcastle United U23</div>
+            </div>
+            <div class="event-betleg">
+              <div title="Open" class="Open"></div>
+            </div>
+          </div>
+          <div class="bet-common">
+            <div class="bet-type">Single</div>
+            <div class="bet-stake">
+              <span>
+                Stake:
+              </span><span>1.23</span><span>€</span>
+            </div>
+            <div class="bet-potential-ret">
+              <span>
+                Est. Returns:
+              </span><span>2.39</span><span>€</span>
+            </div>
+            <div class="cashout-button ready" id="EfbetBetSLipComponent22-cashout-ready-cashout-271538448.1" style="
+                        display: block;
+                      " behavior.id="DoCashOut" behavior.autobind.docashout="onclick"
+              behavior.docashout.idfobet="271538448.1" behavior.docashout.expectedvalue="0.96">
+              <span>
+                Cash Out
+              </span><span id="EfbetBetSLipComponent22-cashout-span-cashout-271538448.1">0.96</span><span>€</span>
+            </div>
+            <div class="cashout-button done" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-done-cashout-271538448.1">
+              <span>
+                Cashed out
+              </span><span id="EfbetBetSLipComponent22-cashout-done-span-cashout-271538448.1"></span>
+            </div>
+            <div class="cashout-button busy" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-busy-cashout-271538448.1">
+              Cashing Out...
+            </div>
+            <div class="cashout-button unavailable" id="EfbetBetSLipComponent22-cashout-unavailable-cashout-271538448.1"
+              style="
+                        display: none;
+                      ">
+              Cash Out Unavailable
+            </div>
+          </div>
+        </div>
+        <div class="bet-container" id="EfbetBetSLipComponent22-betcontainer-cashout-271538558.1">
+          <div class="reofferDiv" style="display: none;" id="EfbetBetSLipComponent22-reoffer-cashout-271538558.1">
+            Reoffer
+          </div>
+          <div class="suspendedDiv" id="EfbetBetSLipComponent22-suspended-cashout-271538558.1" style="
+                    display: none;
+                  ">
+            Suspended
+          </div>
+          <div class="selection-title">
+            <span>No</span><span>1.55</span>
+          </div>
+          <div class="selection-data">
+            <div class="date" title="12.04.2021 13:00">12.04.2021 13:00</div>
+            <div class="event-data">
+              <div class="market" title="Both Teams To Score">Both Teams To Score</div>
+              <div class="event-name" title="Hai Phong v Shb Da Nang">Hai Phong v Shb Da Nang</div>
+            </div>
+            <div class="event-betleg">
+              <div title="Open" class="Open"></div>
+            </div>
+          </div>
+          <div class="bet-common">
+            <div class="bet-type">Single</div>
+            <div class="bet-stake">
+              <span>
+                Stake:
+              </span><span>2</span><span>€</span>
+            </div>
+            <div class="bet-potential-ret">
+              <span>
+                Est. Returns:
+              </span><span>3.1</span><span>€</span>
+            </div>
+            <div class="cashout-button ready" id="EfbetBetSLipComponent22-cashout-ready-cashout-271538558.1" style="
+                        display: block;
+                      " behavior.id="DoCashOut" behavior.autobind.docashout="onclick"
+              behavior.docashout.idfobet="271538558.1" behavior.docashout.expectedvalue="1.9">
+              <span>
+                Cash Out
+              </span><span id="EfbetBetSLipComponent22-cashout-span-cashout-271538558.1">1.9</span><span>€</span>
+            </div>
+            <div class="cashout-button done" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-done-cashout-271538558.1">
+              <span>
+                Cashed out
+              </span><span id="EfbetBetSLipComponent22-cashout-done-span-cashout-271538558.1"></span>
+            </div>
+            <div class="cashout-button busy" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-busy-cashout-271538558.1">
+              Cashing Out...
+            </div>
+            <div class="cashout-button unavailable" id="EfbetBetSLipComponent22-cashout-unavailable-cashout-271538558.1"
+              style="
+                        display: none;
+                      ">
+              Cash Out Unavailable
+            </div>
+          </div>
+        </div>
+        <div class="bet-container" id="EfbetBetSLipComponent22-betcontainer-cashout-271539060.1">
+          <div class="reofferDiv" style="display: none;" id="EfbetBetSLipComponent22-reoffer-cashout-271539060.1">
+            Reoffer
+          </div>
+          <div class="suspendedDiv" id="EfbetBetSLipComponent22-suspended-cashout-271539060.1" style="
+                    display: none;
+                  ">
+            Suspended
+          </div>
+          <div class="selection-title">
+            <span>No</span><span>1.55</span>
+          </div>
+          <div class="selection-data">
+            <div class="date" title="12.04.2021 13:00">12.04.2021 13:00</div>
+            <div class="event-data">
+              <div class="market" title="Both Teams To Score">Both Teams To Score</div>
+              <div class="event-name" title="Hai Phong v Shb Da Nang">Hai Phong v Shb Da Nang</div>
+            </div>
+            <div class="event-betleg">
+              <div title="Open" class="Open"></div>
+            </div>
+          </div>
+          <div class="bet-common">
+            <div class="bet-type">Single</div>
+            <div class="bet-stake">
+              <span>
+                Stake:
+              </span><span>2</span><span>€</span>
+            </div>
+            <div class="bet-potential-ret">
+              <span>
+                Est. Returns:
+              </span><span>3.1</span><span>€</span>
+            </div>
+            <div class="cashout-button ready" id="EfbetBetSLipComponent22-cashout-ready-cashout-271539060.1" style="
+                        display: block;
+                      " behavior.id="DoCashOut" behavior.autobind.docashout="onclick"
+              behavior.docashout.idfobet="271539060.1" behavior.docashout.expectedvalue="1.9">
+              <span>
+                Cash Out
+              </span><span id="EfbetBetSLipComponent22-cashout-span-cashout-271539060.1">1.9</span><span>€</span>
+            </div>
+            <div class="cashout-button done" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-done-cashout-271539060.1">
+              <span>
+                Cashed out
+              </span><span id="EfbetBetSLipComponent22-cashout-done-span-cashout-271539060.1"></span>
+            </div>
+            <div class="cashout-button busy" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-busy-cashout-271539060.1">
+              Cashing Out...
+            </div>
+            <div class="cashout-button unavailable" id="EfbetBetSLipComponent22-cashout-unavailable-cashout-271539060.1"
+              style="
+                        display: none;
+                      ">
+              Cash Out Unavailable
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unsettled-inner" id="EfbetBetSLipComponent22-mybetsUnsettledContainer" style="display: none;">
+        <div class="bet-container" id="EfbetBetSLipComponent22-betcontainer-unsettled-271534484.1">
+          <div class="reofferDiv" style="display: none;" id="EfbetBetSLipComponent22-reoffer-unsettled-271534484.1">
+            Reoffer
+          </div>
+          <div class="suspendedDiv" id="EfbetBetSLipComponent22-suspended-unsettled-271534484.1" style="
+                    display: none;
+                  ">
+            Suspended
+          </div>
+          <div class="selection-title">
+            <span>No</span><span>2.32</span>
+          </div>
+          <div class="selection-data">
+            <div class="date" title="12.04.2021 12:45">12.04.2021 12:45</div>
+            <div class="event-data">
+              <div class="market" title="Both Teams To Score">Both Teams To Score</div>
+              <div class="event-name" title="Adelaide Blue Eagles v Adelaide Raiders">Adelaide Blue Eagles v Adelaide
+                Raiders</div>
+            </div>
+            <div class="event-betleg">
+              <div title="Open" class="Open"></div>
+            </div>
+          </div>
+          <div class="bet-common">
+            <div class="bet-type">Single</div>
+            <div class="bet-stake">
+              <span>
+                Stake:
+              </span><span>0.84</span><span>€</span>
+            </div>
+            <div class="bet-potential-ret">
+              <span>
+                Est. Returns:
+              </span><span>1.95</span><span>€</span>
+            </div>
+            <div class="cashout-button ready" id="EfbetBetSLipComponent22-cashout-ready-unsettled-271534484.1" style="
+                        display: block;
+                      " behavior.id="DoCashOut" behavior.autobind.docashout="onclick"
+              behavior.docashout.idfobet="271534484.1" behavior.docashout.expectedvalue="1.22">
+              <span>
+                Cash Out
+              </span><span id="EfbetBetSLipComponent22-cashout-span-unsettled-271534484.1">1.22</span><span>€</span>
+            </div>
+            <div class="cashout-button done" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-done-unsettled-271534484.1">
+              <span>
+                Cashed out
+              </span><span id="EfbetBetSLipComponent22-cashout-done-span-unsettled-271534484.1"></span>
+            </div>
+            <div class="cashout-button busy" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-busy-unsettled-271534484.1">
+              Cashing Out...
+            </div>
+            <div class="cashout-button unavailable"
+              id="EfbetBetSLipComponent22-cashout-unavailable-unsettled-271534484.1" style="
+                        display: none;
+                      ">
+              Cash Out Unavailable
+            </div>
+          </div>
+        </div>
+        <div class="bet-container" id="EfbetBetSLipComponent22-betcontainer-unsettled-271538108.1">
+          <div class="reofferDiv" style="display: none;" id="EfbetBetSLipComponent22-reoffer-unsettled-271538108.1">
+            Reoffer
+          </div>
+          <div class="suspendedDiv" id="EfbetBetSLipComponent22-suspended-unsettled-271538108.1" style="
+                    display: none;
+                  ">
+            Suspended
+          </div>
+          <div class="selection-title">
+            <span>No</span><span>2.00</span>
+          </div>
+          <div class="selection-data">
+            <div class="date" title="12.04.2021 13:00">12.04.2021 13:00</div>
+            <div class="event-data">
+              <div class="market" title="Both Teams To Score">Both Teams To Score</div>
+              <div class="event-name" title="Wolverhampton Wanderers U23 v Newcastle United U23">Wolverhampton Wanderers
+                U23 v Newcastle United U23</div>
+            </div>
+            <div class="event-betleg">
+              <div title="Open" class="Open"></div>
+            </div>
+          </div>
+          <div class="bet-common">
+            <div class="bet-type">Single</div>
+            <div class="bet-stake">
+              <span>
+                Stake:
+              </span><span>1.14</span><span>€</span>
+            </div>
+            <div class="bet-potential-ret">
+              <span>
+                Est. Returns:
+              </span><span>2.28</span><span>€</span>
+            </div>
+            <div class="cashout-button ready" id="EfbetBetSLipComponent22-cashout-ready-unsettled-271538108.1" style="
+                        display: block;
+                      " behavior.id="DoCashOut" behavior.autobind.docashout="onclick"
+              behavior.docashout.idfobet="271538108.1" behavior.docashout.expectedvalue="0.92">
+              <span>
+                Cash Out
+              </span><span id="EfbetBetSLipComponent22-cashout-span-unsettled-271538108.1">0.92</span><span>€</span>
+            </div>
+            <div class="cashout-button done" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-done-unsettled-271538108.1">
+              <span>
+                Cashed out
+              </span><span id="EfbetBetSLipComponent22-cashout-done-span-unsettled-271538108.1"></span>
+            </div>
+            <div class="cashout-button busy" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-busy-unsettled-271538108.1">
+              Cashing Out...
+            </div>
+            <div class="cashout-button unavailable"
+              id="EfbetBetSLipComponent22-cashout-unavailable-unsettled-271538108.1" style="
+                        display: none;
+                      ">
+              Cash Out Unavailable
+            </div>
+          </div>
+        </div>
+        <div class="bet-container" id="EfbetBetSLipComponent22-betcontainer-unsettled-271538289.1">
+          <div class="reofferDiv" style="display: none;" id="EfbetBetSLipComponent22-reoffer-unsettled-271538289.1">
+            Reoffer
+          </div>
+          <div class="suspendedDiv" id="EfbetBetSLipComponent22-suspended-unsettled-271538289.1" style="
+                    display: none;
+                  ">
+            Suspended
+          </div>
+          <div class="selection-title">
+            <span>No</span><span>1.98</span>
+          </div>
+          <div class="selection-data">
+            <div class="date" title="12.04.2021 13:00">12.04.2021 13:00</div>
+            <div class="event-data">
+              <div class="market" title="Both Teams To Score">Both Teams To Score</div>
+              <div class="event-name" title="Wolverhampton Wanderers U23 v Newcastle United U23">Wolverhampton Wanderers
+                U23 v Newcastle United U23</div>
+            </div>
+            <div class="event-betleg">
+              <div title="Open" class="Open"></div>
+            </div>
+          </div>
+          <div class="bet-common">
+            <div class="bet-type">Single</div>
+            <div class="bet-stake">
+              <span>
+                Stake:
+              </span><span>1.15</span><span>€</span>
+            </div>
+            <div class="bet-potential-ret">
+              <span>
+                Est. Returns:
+              </span><span>2.28</span><span>€</span>
+            </div>
+            <div class="cashout-button ready" id="EfbetBetSLipComponent22-cashout-ready-unsettled-271538289.1" style="
+                        display: block;
+                      " behavior.id="DoCashOut" behavior.autobind.docashout="onclick"
+              behavior.docashout.idfobet="271538289.1" behavior.docashout.expectedvalue="0.92">
+              <span>
+                Cash Out
+              </span><span id="EfbetBetSLipComponent22-cashout-span-unsettled-271538289.1">0.92</span><span>€</span>
+            </div>
+            <div class="cashout-button done" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-done-unsettled-271538289.1">
+              <span>
+                Cashed out
+              </span><span id="EfbetBetSLipComponent22-cashout-done-span-unsettled-271538289.1"></span>
+            </div>
+            <div class="cashout-button busy" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-busy-unsettled-271538289.1">
+              Cashing Out...
+            </div>
+            <div class="cashout-button unavailable"
+              id="EfbetBetSLipComponent22-cashout-unavailable-unsettled-271538289.1" style="
+                        display: none;
+                      ">
+              Cash Out Unavailable
+            </div>
+          </div>
+        </div>
+        <div class="bet-container" id="EfbetBetSLipComponent22-betcontainer-unsettled-271538348.1">
+          <div class="reofferDiv" style="display: none;" id="EfbetBetSLipComponent22-reoffer-unsettled-271538348.1">
+            Reoffer
+          </div>
+          <div class="suspendedDiv" id="EfbetBetSLipComponent22-suspended-unsettled-271538348.1" style="
+                    display: none;
+                  ">
+            Suspended
+          </div>
+          <div class="selection-title">
+            <span>No</span><span>1.98</span>
+          </div>
+          <div class="selection-data">
+            <div class="date" title="12.04.2021 13:00">12.04.2021 13:00</div>
+            <div class="event-data">
+              <div class="market" title="Both Teams To Score">Both Teams To Score</div>
+              <div class="event-name" title="Wolverhampton Wanderers U23 v Newcastle United U23">Wolverhampton Wanderers
+                U23 v Newcastle United U23</div>
+            </div>
+            <div class="event-betleg">
+              <div title="Open" class="Open"></div>
+            </div>
+          </div>
+          <div class="bet-common">
+            <div class="bet-type">Single</div>
+            <div class="bet-stake">
+              <span>
+                Stake:
+              </span><span>1.15</span><span>€</span>
+            </div>
+            <div class="bet-potential-ret">
+              <span>
+                Est. Returns:
+              </span><span>2.28</span><span>€</span>
+            </div>
+            <div class="cashout-button ready" id="EfbetBetSLipComponent22-cashout-ready-unsettled-271538348.1" style="
+                        display: block;
+                      " behavior.id="DoCashOut" behavior.autobind.docashout="onclick"
+              behavior.docashout.idfobet="271538348.1" behavior.docashout.expectedvalue="0.92">
+              <span>
+                Cash Out
+              </span><span id="EfbetBetSLipComponent22-cashout-span-unsettled-271538348.1">0.92</span><span>€</span>
+            </div>
+            <div class="cashout-button done" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-done-unsettled-271538348.1">
+              <span>
+                Cashed out
+              </span><span id="EfbetBetSLipComponent22-cashout-done-span-unsettled-271538348.1"></span>
+            </div>
+            <div class="cashout-button busy" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-busy-unsettled-271538348.1">
+              Cashing Out...
+            </div>
+            <div class="cashout-button unavailable"
+              id="EfbetBetSLipComponent22-cashout-unavailable-unsettled-271538348.1" style="
+                        display: none;
+                      ">
+              Cash Out Unavailable
+            </div>
+          </div>
+        </div>
+        <div class="bet-container" id="EfbetBetSLipComponent22-betcontainer-unsettled-271538448.1">
+          <div class="reofferDiv" style="display: none;" id="EfbetBetSLipComponent22-reoffer-unsettled-271538448.1">
+            Reoffer
+          </div>
+          <div class="suspendedDiv" id="EfbetBetSLipComponent22-suspended-unsettled-271538448.1" style="
+                    display: none;
+                  ">
+            Suspended
+          </div>
+          <div class="selection-title">
+            <span>No</span><span>1.94</span>
+          </div>
+          <div class="selection-data">
+            <div class="date" title="12.04.2021 13:00">12.04.2021 13:00</div>
+            <div class="event-data">
+              <div class="market" title="Both Teams To Score">Both Teams To Score</div>
+              <div class="event-name" title="Wolverhampton Wanderers U23 v Newcastle United U23">Wolverhampton Wanderers
+                U23 v Newcastle United U23</div>
+            </div>
+            <div class="event-betleg">
+              <div title="Open" class="Open"></div>
+            </div>
+          </div>
+          <div class="bet-common">
+            <div class="bet-type">Single</div>
+            <div class="bet-stake">
+              <span>
+                Stake:
+              </span><span>1.23</span><span>€</span>
+            </div>
+            <div class="bet-potential-ret">
+              <span>
+                Est. Returns:
+              </span><span>2.39</span><span>€</span>
+            </div>
+            <div class="cashout-button ready" id="EfbetBetSLipComponent22-cashout-ready-unsettled-271538448.1" style="
+                        display: block;
+                      " behavior.id="DoCashOut" behavior.autobind.docashout="onclick"
+              behavior.docashout.idfobet="271538448.1" behavior.docashout.expectedvalue="0.96">
+              <span>
+                Cash Out
+              </span><span id="EfbetBetSLipComponent22-cashout-span-unsettled-271538448.1">0.96</span><span>€</span>
+            </div>
+            <div class="cashout-button done" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-done-unsettled-271538448.1">
+              <span>
+                Cashed out
+              </span><span id="EfbetBetSLipComponent22-cashout-done-span-unsettled-271538448.1"></span>
+            </div>
+            <div class="cashout-button busy" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-busy-unsettled-271538448.1">
+              Cashing Out...
+            </div>
+            <div class="cashout-button unavailable"
+              id="EfbetBetSLipComponent22-cashout-unavailable-unsettled-271538448.1" style="
+                        display: none;
+                      ">
+              Cash Out Unavailable
+            </div>
+          </div>
+        </div>
+        <div class="bet-container" id="EfbetBetSLipComponent22-betcontainer-unsettled-271538558.1">
+          <div class="reofferDiv" style="display: none;" id="EfbetBetSLipComponent22-reoffer-unsettled-271538558.1">
+            Reoffer
+          </div>
+          <div class="suspendedDiv" id="EfbetBetSLipComponent22-suspended-unsettled-271538558.1" style="
+                    display: none;
+                  ">
+            Suspended
+          </div>
+          <div class="selection-title">
+            <span>No</span><span>1.55</span>
+          </div>
+          <div class="selection-data">
+            <div class="date" title="12.04.2021 13:00">12.04.2021 13:00</div>
+            <div class="event-data">
+              <div class="market" title="Both Teams To Score">Both Teams To Score</div>
+              <div class="event-name" title="Hai Phong v Shb Da Nang">Hai Phong v Shb Da Nang</div>
+            </div>
+            <div class="event-betleg">
+              <div title="Open" class="Open"></div>
+            </div>
+          </div>
+          <div class="bet-common">
+            <div class="bet-type">Single</div>
+            <div class="bet-stake">
+              <span>
+                Stake:
+              </span><span>2</span><span>€</span>
+            </div>
+            <div class="bet-potential-ret">
+              <span>
+                Est. Returns:
+              </span><span>3.1</span><span>€</span>
+            </div>
+            <div class="cashout-button ready" id="EfbetBetSLipComponent22-cashout-ready-unsettled-271538558.1" style="
+                        display: block;
+                      " behavior.id="DoCashOut" behavior.autobind.docashout="onclick"
+              behavior.docashout.idfobet="271538558.1" behavior.docashout.expectedvalue="1.9">
+              <span>
+                Cash Out
+              </span><span id="EfbetBetSLipComponent22-cashout-span-unsettled-271538558.1">1.9</span><span>€</span>
+            </div>
+            <div class="cashout-button done" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-done-unsettled-271538558.1">
+              <span>
+                Cashed out
+              </span><span id="EfbetBetSLipComponent22-cashout-done-span-unsettled-271538558.1"></span>
+            </div>
+            <div class="cashout-button busy" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-busy-unsettled-271538558.1">
+              Cashing Out...
+            </div>
+            <div class="cashout-button unavailable"
+              id="EfbetBetSLipComponent22-cashout-unavailable-unsettled-271538558.1" style="
+                        display: none;
+                      ">
+              Cash Out Unavailable
+            </div>
+          </div>
+        </div>
+        <div class="bet-container" id="EfbetBetSLipComponent22-betcontainer-unsettled-271538655.1">
+          <div class="reofferDiv" style="display: none;" id="EfbetBetSLipComponent22-reoffer-unsettled-271538655.1">
+            Reoffer
+          </div>
+          <div class="suspendedDiv" id="EfbetBetSLipComponent22-suspended-unsettled-271538655.1" style="
+                    display: none;
+                  ">
+            Suspended
+          </div>
+          <div class="selection-title">
+            <span>No</span><span>1.44</span>
+          </div>
+          <div class="selection-data">
+            <div class="date" title="12.04.2021 12:00">12.04.2021 12:00</div>
+            <div class="event-data">
+              <div class="market" title="Both Teams To Score">Both Teams To Score</div>
+              <div class="event-name" title="Brisbane City v Souths United">Brisbane City v Souths United</div>
+            </div>
+            <div class="event-betleg">
+              <div title="Open" class="Open"></div>
+            </div>
+          </div>
+          <div class="bet-common">
+            <div class="bet-type">Single</div>
+            <div class="bet-stake">
+              <span>
+                Stake:
+              </span><span>2</span><span>€</span>
+            </div>
+            <div class="bet-potential-ret">
+              <span>
+                Est. Returns:
+              </span><span>2.88</span><span>€</span>
+            </div>
+          </div>
+        </div>
+        <div class="bet-container" id="EfbetBetSLipComponent22-betcontainer-unsettled-271538794.1">
+          <div class="reofferDiv" style="display: none;" id="EfbetBetSLipComponent22-reoffer-unsettled-271538794.1">
+            Reoffer
+          </div>
+          <div class="suspendedDiv" id="EfbetBetSLipComponent22-suspended-unsettled-271538794.1" style="
+                    display: none;
+                  ">
+            Suspended
+          </div>
+          <div class="selection-title">
+            <span>No</span><span>1.42</span>
+          </div>
+          <div class="selection-data">
+            <div class="date" title="12.04.2021 12:00">12.04.2021 12:00</div>
+            <div class="event-data">
+              <div class="market" title="Both Teams To Score">Both Teams To Score</div>
+              <div class="event-name" title="Brisbane City v Souths United">Brisbane City v Souths United</div>
+            </div>
+            <div class="event-betleg">
+              <div title="Open" class="Open"></div>
+            </div>
+          </div>
+          <div class="bet-common">
+            <div class="bet-type">Single</div>
+            <div class="bet-stake">
+              <span>
+                Stake:
+              </span><span>2</span><span>€</span>
+            </div>
+            <div class="bet-potential-ret">
+              <span>
+                Est. Returns:
+              </span><span>2.84</span><span>€</span>
+            </div>
+          </div>
+        </div>
+        <div class="bet-container" id="EfbetBetSLipComponent22-betcontainer-unsettled-271539006.1">
+          <div class="reofferDiv" style="display: none;" id="EfbetBetSLipComponent22-reoffer-unsettled-271539006.1">
+            Reoffer
+          </div>
+          <div class="suspendedDiv" id="EfbetBetSLipComponent22-suspended-unsettled-271539006.1" style="
+                    display: none;
+                  ">
+            Suspended
+          </div>
+          <div class="selection-title">
+            <span>Under 1.5</span><span>1.50</span>
+          </div>
+          <div class="selection-data">
+            <div class="date" title="12.04.2021 12:00">12.04.2021 12:00</div>
+            <div class="event-data">
+              <div class="market" title="Song Lam Nghe An Goals Over / Under 1.5">Song Lam Nghe An Goals Over / Under
+                1.5</div>
+              <div class="event-name" title="Song Lam Nghe An v Becamex Binh Duong">Song Lam Nghe An v Becamex Binh
+                Duong</div>
+            </div>
+            <div class="event-betleg">
+              <div title="Open" class="Open"></div>
+            </div>
+          </div>
+          <div class="bet-common">
+            <div class="bet-type">Single</div>
+            <div class="bet-stake">
+              <span>
+                Stake:
+              </span><span>2</span><span>€</span>
+            </div>
+            <div class="bet-potential-ret">
+              <span>
+                Est. Returns:
+              </span><span>3</span><span>€</span>
+            </div>
+          </div>
+        </div>
+        <div class="bet-container" id="EfbetBetSLipComponent22-betcontainer-unsettled-271539060.1">
+          <div class="reofferDiv" style="display: none;" id="EfbetBetSLipComponent22-reoffer-unsettled-271539060.1">
+            Reoffer
+          </div>
+          <div class="suspendedDiv" id="EfbetBetSLipComponent22-suspended-unsettled-271539060.1" style="
+                    display: none;
+                  ">
+            Suspended
+          </div>
+          <div class="selection-title">
+            <span>No</span><span>1.55</span>
+          </div>
+          <div class="selection-data">
+            <div class="date" title="12.04.2021 13:00">12.04.2021 13:00</div>
+            <div class="event-data">
+              <div class="market" title="Both Teams To Score">Both Teams To Score</div>
+              <div class="event-name" title="Hai Phong v Shb Da Nang">Hai Phong v Shb Da Nang</div>
+            </div>
+            <div class="event-betleg">
+              <div title="Open" class="Open"></div>
+            </div>
+          </div>
+          <div class="bet-common">
+            <div class="bet-type">Single</div>
+            <div class="bet-stake">
+              <span>
+                Stake:
+              </span><span>2</span><span>€</span>
+            </div>
+            <div class="bet-potential-ret">
+              <span>
+                Est. Returns:
+              </span><span>3.1</span><span>€</span>
+            </div>
+            <div class="cashout-button ready" id="EfbetBetSLipComponent22-cashout-ready-unsettled-271539060.1" style="
+                        display: block;
+                      " behavior.id="DoCashOut" behavior.autobind.docashout="onclick"
+              behavior.docashout.idfobet="271539060.1" behavior.docashout.expectedvalue="1.9">
+              <span>
+                Cash Out
+              </span><span id="EfbetBetSLipComponent22-cashout-span-unsettled-271539060.1">1.9</span><span>€</span>
+            </div>
+            <div class="cashout-button done" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-done-unsettled-271539060.1">
+              <span>
+                Cashed out
+              </span><span id="EfbetBetSLipComponent22-cashout-done-span-unsettled-271539060.1"></span>
+            </div>
+            <div class="cashout-button busy" style="display: none;"
+              id="EfbetBetSLipComponent22-cashout-busy-unsettled-271539060.1">
+              Cashing Out...
+            </div>
+            <div class="cashout-button unavailable"
+              id="EfbetBetSLipComponent22-cashout-unavailable-unsettled-271539060.1" style="
+                        display: none;
+                      ">
+              Cash Out Unavailable
+            </div>
+          </div>
+        </div>
+        <div class="bet-container" id="EfbetBetSLipComponent22-betcontainer-unsettled-271539274.1">
+          <div class="reofferDiv" style="display: none;" id="EfbetBetSLipComponent22-reoffer-unsettled-271539274.1">
+            Reoffer
+          </div>
+          <div class="suspendedDiv" id="EfbetBetSLipComponent22-suspended-unsettled-271539274.1" style="
+                    display: none;
+                  ">
+            Suspended
+          </div>
+          <div class="selection-title">
+            <span>Under 1.5</span><span>1.45</span>
+          </div>
+          <div class="selection-data">
+            <div class="date" title="12.04.2021 12:00">12.04.2021 12:00</div>
+            <div class="event-data">
+              <div class="market" title="Song Lam Nghe An Goals Over / Under 1.5">Song Lam Nghe An Goals Over / Under
+                1.5</div>
+              <div class="event-name" title="Song Lam Nghe An v Becamex Binh Duong">Song Lam Nghe An v Becamex Binh
+                Duong</div>
+            </div>
+            <div class="event-betleg">
+              <div title="Open" class="Open"></div>
+            </div>
+          </div>
+          <div class="bet-common">
+            <div class="bet-type">Single</div>
+            <div class="bet-stake">
+              <span>
+                Stake:
+              </span><span>2.04</span><span>€</span>
+            </div>
+            <div class="bet-potential-ret">
+              <span>
+                Est. Returns:
+              </span><span>2.96</span><span>€</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cashout-loading" style="display: none;" id="EfbetBetSLipComponent22-cashout-loading"><img
+          src="/Areas/css/images/betplace-loader.gif" alt="
+        Loading...
+      " title="
+        Loading...
+      "></div>
+      <div class="messageBox" style="display: none;" id="EfbetBetSLipComponent22-cashout-error-generic">
+        There was an error. Please contact support!
+      </div>
+    </div>
+  </div>
+  <div class="betslip betplacement" id="EfbetBetPlacementComponent23" style="display: block;">
+    <xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display:none;"
+      id="EfbetBetPlacementComponent23-strings">
+      <string english="We can accept your bet with a stake amount of">We can accept your bet with a stake amount of:
+      </string>
+      <string english="Efbet is offering you a new price of">Efbet is offering you a new price of</string>
+    </xml>
+    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display: none;">
+      <span id="EfbetBetPlacementComponent23-translate-total-stake">
+        Total Stake
+      </span><span id="EfbetBetPlacementComponent23-translate-free-balance">
+        Balance
+      </span><span id="EfbetBetPlacementComponent23-translate-total-estimated-return">
+        Estimated Return
+      </span><span id="EfbetBetPlacementComponent23-translate-stake">
+        Stake
+      </span><span id="EfbetBetPlacementComponent23-translate-estimated-return">
+        Est. Returns
+      </span><span id="EfbetBetPlacementComponent23-translate-selection">
+        Selection
+      </span><span id="EfbetBetPlacementComponent23-translate-hcp">
+        Hcp
+      </span><span id="EfbetBetPlacementComponent23-translate-price">
+        Price
+      </span><span id="EfbetBetPlacementComponent23-translate-total-price">
+        Total price
+      </span><span id="EfbetBetPlacementComponent23-translate-just-backed">
+        Just backed
+      </span><span id="EfbetBetPlacementComponent23-translate-at">
+        at
+      </span><span id="EfbetBetPlacementComponent23-translate-with">
+        with
+      </span><span id="EfbetBetPlacementComponent23-translate-to">
+        to
+      </span><span id="EfbetBetPlacementComponent23-translate-price-change">
+        Price change
+      </span><span id="EfbetBetPlacementComponent23-translate-band-change">
+        Band change
+      </span><span id="EfbetBetPlacementComponent23-translate-handicap-change">
+        Handicap change
+      </span><span id="EfbetBetPlacementComponent23-translate-ew-change">
+        Each Way terms change
+      </span><span id="EfbetBetPlacementComponent23-freeEx">
+        FREE!
+      </span><span id="EfbetBetPlacementComponent23-free">
+        FREE
+      </span><span id="EfbetBetPlacementComponent23-BetRef">
+        Bet Ref
+      </span><span id="EfbetBetPlacementComponent23-translate-just-placed-multiple-bets-with">
+        Just placed multiple bets with
+      </span><span id="EfbetBetPlacementComponent23-we-sorry-selection-has-failed">
+        We're sorry, but this bet selection has failed during bet placement.
+      </span><span id="EfbetBetPlacementComponent23-please-contact-customer-support">
+        Please contact customer support for further assistance on
+      </span><span id="EfbetBetPlacementComponent23-or">
+        or
+      </span><span id="EfbetBetPlacementComponent23-liveChat">
+        Live chat
+      </span><span id="EfbetBetPlacementComponent23-we-sorry-cannot-accept-such">
+        We're sorry but we can't accept such a stake at the moment,
+      </span><span id="EfbetBetPlacementComponent23-your-stake-has-been-changed">
+        your stake has been changed to a lower stake as you have your preferences set to accept re-offers for bets with
+        stake reductions automatically.
+      </span><span id="EfbetBetPlacementComponent23-betslip-rejected-default">
+        Bet slip was rejected
+      </span>
+    </div>
+    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display:none"
+      id="EfbetBetPlacementComponent23-confirmation-required-before">
+      <h2>
+        <span>
+          Betslip
+        </span><a href="#" class="helpicon" behavior.id="NavigateToBetslipHelp"
+          behavior.autobind.navigatetobetsliphelp="onclick" behavior.navigatetobetsliphelp.helparea="help"
+          behavior.navigatetobetsliphelp.helpaction="rulebook" title="
+    Betslip help
+  ">
+          Betslip help
+        </a>
+      </h2>
+      <div class="betslip-inner">
+        <div id="EfbetBetPlacementComponent23-confirmation-required-before-bet-slip"></div>
+        <div class="bs-footer-buttons">
+          <a href="#" class="save-selection" title="
+        Save selection
+      " behavior.id="RejectBetSlip" behavior.autobind.rejectbetslip="onclick">
+            Save selection
+          </a><a href="#" class="proceed" title="Proceed" behavior.id="ConfirmBetSlip"
+            behavior.autobind.confirmbetslip="onclick">
+            Proceed
+          </a>
+        </div>
+      </div>
+    </div>
+    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display: none; min-height: 240px;"
+      id="EfbetBetPlacementComponent23-waiting">
+      <div id="EfbetBetPlacementComponent23-waiting-bet-slip"></div>
+      <div class="betslip_overlay">
+        <div style="min-height:200px" class="betslip_overlay_message" id="EfbetBetPlacementComponent23-place-loading">
+          <p style="padding-top:70px;padding-bottom:20px;text-align:center;"><strong>
+              Placing bets, please wait...
+            </strong></p>
+          <p style="text-align:center;"><img src="/Areas/css/images/betplace-loader.gif"></p>
+        </div>
+      </div>
+    </div>
+    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display: block; min-height: 200px;"
+      id="EfbetBetPlacementComponent23-confirmation-required">
+      <h2>
+        <span>
+          Betslip
+        </span><a href="#" class="helpicon" behavior.id="NavigateToBetslipHelp"
+          behavior.autobind.navigatetobetsliphelp="onclick" behavior.navigatetobetsliphelp.helparea="help"
+          behavior.navigatetobetsliphelp.helpaction="rulebook" title="
+    Betslip help
+  ">
+          Betslip help
+        </a>
+      </h2>
+      <div class="betslip-inner">
+        <div class="betslip_max_stake">
+          <p class="red_text" style="margin-bottom: 5px; display: block;"
+            id="EfbetBetPlacementComponent23-confirmation-required-8">Efbet is offering you a new price of 1.42</p>
+          <p class="red_text" style="margin-bottom:5px;display:none"
+            id="EfbetBetPlacementComponent23-confirmation-required-64">We can accept your bet with a stake amount of:
+            €2.00</p>
+          <p class="red_text" style="margin-bottom:5px;display:none"
+            id="EfbetBetPlacementComponent23-confirmation-required-16"><strong>
+              Handicap has changed in the meantime.
+            </strong></p>
+          <p class="red_text" style="margin-bottom:5px;display:none"
+            id="EfbetBetPlacementComponent23-confirmation-required-32"><strong>
+              Band has changed in the meantime.
+            </strong></p>
+          <p class="red_text" style="margin-bottom:5px;display:none"
+            id="EfbetBetPlacementComponent23-confirmation-required-128"><strong>
+              Price has changed in the meantime.
+            </strong></p>
+          <p class="red_text" style="margin-bottom:5px;display:none"
+            id="EfbetBetPlacementComponent23-confirmation-required-512"><strong>
+              Potential return is higher than maximum takeout for the markets in this bet.
+            </strong></p>
+          <p class="red_text" style="margin-bottom:5px;display:none"
+            id="EfbetBetPlacementComponent23-confirmation-required-1024"><strong>
+              Potential return is higher than maximum takeout for the markets in this bet.
+            </strong></p>
+          <p class="red_text" style="margin-bottom:5px;display:none"
+            id="EfbetBetPlacementComponent23-confirmation-required-2048"><strong>
+              Each way terms have changed in the meantime.
+            </strong></p>
+          <p class="red_text" style="margin-bottom:5px;display:none"
+            id="EfbetBetPlacementComponent23-confirmation-required-4096"><strong></strong></p>
+          <div style="width:100%;height:100%" class="loading-numbers">
+            <div></div>
+          </div>
+          <div class="loading_numbers"><span><strong
+                id="EfbetBetPlacementComponent23-grace-period-timer">10</strong></span></div>
+        </div>
+        <div id="EfbetBetPlacementComponent23-confirmation-required-bet-slip">
+          <div class="bet_selections">
+            <p class="betslip_notification notification_price_change"><span class="left"><strong>2.00 </strong><strong>
+                  Single</strong></span><strong></strong></p>
+            <div class="bet_selection no_margin_top bet_selection_price_change_state">
+              <div class="bet_multiple_selection"><span class="info_tooltip"><span>Under 1.5 @<span
+                      class="price_change_after">1.42</span></span><span>Song Lam Nghe An Goals Over / Under
+                    1.5</span><span>Song Lam Nghe An v Becamex Binh Duong</span></span><span class="twitter_betslip"
+                  id="EfbetBetPlacementComponent23-twitterButtonSpan1950846117.11"></span></div>
+              <p class="betslip_text_margin">Stake: €2.00 </p>
+              <p class="betslip_text_margin">Est. Returns: €2.84 </p>
+              <div class="price_change_message">
+                Price change
+                : 1.48
+                to
+                1.42</div>
+            </div>
+          </div>
+          <div class="bet_placement">
+            <p><strong>Total Stake: €2.00</strong></p>
+            <p>Estimated Return: €2.84</p>
+            <div class="bet_placement_confirmation"></div>
+          </div>
+        </div>
+        <div class="bs-footer-buttons">
+          <div class="place_bet place_bet_block btnYellow" style="float:left;" title="
+        Confirm Bets
+      " behavior.id="ConfirmBetSlip" behavior.autobind.confirmbetslip="onclick"><span><strong
+                style="font-size: 16px;">Confirm Bets</strong></span></div>
+        </div>
+        <div class="betslip_overlay" id="EfbetBetPlacementComponent23-confirmation-required-16384"
+          style="display: none;">
+          <div class="betslip_overlay_message overlay_message_insufficient_funds">
+            <div class="nbs-exclamation">
+              <span></span><strong>Insufficient funds:</strong>
+              You need to top up your balance with
+              <strong><span id="EfbetBetPlacementComponent23-topup-amount"></span></strong>
+              to place your bet.
+            </div>
+            <div id="EfbetBetPlacementComponent23-confirmation-required-16384-credit-card-grace-period">
+              <p class="timer red_text"
+                id="EfbetBetPlacementComponent23-confirmation-required-16384-credit-card-timer-message"><span><strong
+                    id="EfbetBetPlacementComponent23grace-period-timer"></strong></span></p>
+            </div>
+            <div style="display:none" id="EfbetBetPlacementComponent23-confirmation-required-16384-credit-card">
+              <span class="overlay_border"></span>
+              <div class="overlay_half_width_centered">
+                <p class="small_text">
+                  * <span id="EfbetBetPlacementComponent23-topup-minamount">€</span> Min Deposit
+                </p>
+              </div>
+              <div class="overlay_full_width">
+                <div class="overlay_half_width">
+                  <p>
+                    Card number
+                  </p>
+                  <input disabled="" class="overlay_insufficient_funds_field" type="text"
+                    id="EfbetBetPlacementComponent23-security-card-number" title="
+                Default credit card
+              ">
+                </div>
+                <div class="overlay_half_width">
+                  <p>
+                    CV2
+                  </p>
+                  <input class="overlay_insufficient_funds_field focusblur" value="" type="text" size="3" maxlength="3"
+                    id="EfbetBetPlacementComponent23-security-code" title="
+                Security code (CV2)
+              ">
+                </div>
+                <input class="overlay_submit" type="submit" id="EfbetBetPlacementComponent23-deposit-confirm"
+                  behavior.id="ConfirmBetSlip" behavior.autobind.confirmbetslip="onclick" title="
+              Deposit and Place Bet
+            " value="
+              Deposit &amp; Place Bet
+            ">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display: none;"
+      id="EfbetBetPlacementComponent23-placed">
+      <h2>
+        <span>
+          Betslip
+        </span><a href="#" class="helpicon" behavior.id="NavigateToBetslipHelp"
+          behavior.autobind.navigatetobetsliphelp="onclick" behavior.navigatetobetsliphelp.helparea="help"
+          behavior.navigatetobetsliphelp.helpaction="rulebook" title="
+    Betslip help
+  ">
+          Betslip help
+        </a>
+      </h2>
+      <div class="betslip-inner">
+        <h5 class="receipt"><strong>
+            Bet placed
+          </strong></h5>
+        <div id="EfbetBetPlacementComponent23-placed-bet-slip">
+          <div class="bet_selections">
+            <div class="bet_selection bet_selection_receipt_state ">
+              <p class="bet_price_message_receipt"> <strong>Single</strong> -
+                Bet Ref
+                : <span class="green_text">66/53</span></p>
+              <div class="bet_multiple_selection_results"><span class="info_tooltip"><span>Under 1.5
+                    @1.45</span><span>Song Lam Nghe An Goals Over / Under 1.5</span><span>Song Lam Nghe An v Becamex
+                    Binh Duong</span></span><span class="twitter_betslip"
+                  id="EfbetBetPlacementComponent23-twitterButtonSpan1950846117.12"><span class="twitter_button"
+                    height="24px" width="24px" id="EfbetBetPlacementComponent23-twitterButton1950846117.12"
+                    title="Just%20backed%20Under%201.5%20%28Song%20Lam%20Nghe%20An%20Goals%20Over%20/%20Under%201.5%29%20at%201.45%20with%20@efbet&amp;&amp;http://www.efbet.net/betslip/betsliplanding.asp?price=9/20&amp;selId=1950846117.1"></span></span>
+              </div>
+              <div class="betslip_twitter_div"><span class="twitter_iframe"
+                  id="EfbetBetPlacementComponent23-twitterButtonMultipleSpan02"></span><span class="span_stake">Stake:
+                  <span>€ 2.04</span></span><span class="span_est_return">Est. Returns: <span>€ 2.96</span></span></div>
+            </div>
+          </div>
+          <div class="bet_placement">
+            <p><strong>Total Stake: €2.04</strong></p>
+            <p>Estimated Return: €2.96</p>
+            <div class="bet_placement_confirmation"></div>
+          </div>
+        </div>
+        <div class="bs-footer-buttons">
+          <a href="#" id="EfbetBetPlacementComponent23-placed-continue-betting" title="Continue"
+            behavior.id="ContinueBetting" behavior.autobind.continuebetting="onclick"
+            behavior.continuebetting.state="placed">
+            Continue
+          </a>
+          <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.async = true; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+        </div>
+      </div>
+    </div>
+    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display: none;"
+      id="EfbetBetPlacementComponent23-rejected">
+      <h2>
+        <span>
+          Betslip
+        </span><a href="#" class="helpicon" behavior.id="NavigateToBetslipHelp"
+          behavior.autobind.navigatetobetsliphelp="onclick" behavior.navigatetobetsliphelp.helparea="help"
+          behavior.navigatetobetsliphelp.helpaction="rulebook" title="
+    Betslip help
+  ">
+          Betslip help
+        </a>
+      </h2>
+      <div class="betslip-inner">
+        <div id="EfbetBetPlacementComponent23-rejected-bet-slip">
+          <div class="bet_selections">
+            <div class="bet_selection bet_selection_normal_state">
+              <p class="green bet_price_message"><span class="left"> Single</span></p>
+              <div class="bet_multiple_selection"><span class="info_tooltip"><span>Under 1.5 @1.48</span><span>Song Lam
+                    Nghe An Goals Over / Under 1.5</span><span>Song Lam Nghe An v Becamex Binh Duong</span></span><span
+                  class="twitter_betslip" id="EfbetBetPlacementComponent23-twitterButtonSpan1950846117.14"></span></div>
+              <div class="betslip_twitter_div"><span class="twitter_iframe"
+                  id="EfbetBetPlacementComponent23-twitterButtonMultipleSpan04"></span><span class="span_stake">Stake:
+                  <span>€ 2.00</span></span><span class="span_est_return">Est. Returns: <span>€ 2.96</span></span></div>
+            </div>
+          </div>
+          <div class="bet_placement">
+            <p><strong>Total Stake: €2.00</strong></p>
+            <p>Estimated Return: €2.96</p>
+            <div class="bet_placement_confirmation"></div>
+          </div>
+        </div>
+        <div class="betslip_overlay" id="EfbetBetPlacementComponent23-rejected-overlay-msg" style="display: block;">
+          <div class="betslip_overlay_message overlay_message_loging">
+            <div>
+              <div style="display:none;" id="EfbetBetPlacementComponent23-rejected-2">
+                <div class="nbs-exclamation">
+                  <span class="attention"></span>
+                  Bet placement failed
+                  <br><br>
+                  Bet placement manually rejected.
+                </div>
+              </div>
+              <div style="display: none;" id="EfbetBetPlacementComponent23-rejected-3">
+                <div style="display:none;" id="EfbetBetPlacementComponent23-rejected-3-4096">
+                  <div class="nbs-exclamation">
+                    <span class="attention"></span>
+                    Insufficient funds:
+
+                    You need to top up your balance with
+                    <strong><span id="EfbetBetPlacementComponent23-topup-amount-nocard"></span></strong>
+                    to place your bet.
+                  </div>
+                  <span class="overlay_border"></span>
+                  <p>
+                    You have not yet added a card for
+                    <br>
+                    payment to your account
+                  </p>
+                  <div class="overlay_full_width"><input class="overlay_submit " type="submit" title="
+                  Setup a Card Now
+                " behavior.id="ContinueToSetCard" behavior.autobind.continuetosetcard="onclick" value="
+                  Setup a Card Now
+                "></div>
+                </div>
+                <div style="display: block;" id="EfbetBetPlacementComponent23-rejected-3-other">
+                  <div class="nbs-exclamation">
+                    <span class="attention"></span>
+                    Rejected
+                    <br><br><span style="display: block;" id="EfbetBetPlacementComponent23-rejected-3-text">Selection
+                      Under 1.5 (Market Song Lam Nghe An Goals Over / Under 1.5, Event:Song Lam Nghe An v Becamex Binh
+                      Duong) is not available for betting! The Market is temporarily suspended.</span><br>
+                  </div>
+                </div>
+              </div>
+              <div style="display:none;" id="EfbetBetPlacementComponent23-rejected-4">
+                <div class="nbs-exclamation">
+                  <span class="attention"></span>
+                  Bet placement failed
+                  <br><br>
+                  We're sorry, but the bet placement has failed. Please contact customer support for further assistance.
+                  <span style="display:none" id="EfbetBetPlacementComponent23-rejected-4-text"></span>
+                </div>
+              </div>
+              <div style="display: block;" id="EfbetBetPlacementComponent23-rejected-5">
+                <div class="nbs-exclamation">
+                  <span class="attention"></span>
+                  Timed out
+                  <br><br>
+                  The processing time of your stake expired, please try again.
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bs-footer-buttons"><a href="#" title="Continue" behavior.id="ContinueBetting"
+            behavior.autobind.continuebetting="onclick">
+            Continue
+          </a></div>
+      </div>
+    </div>
+    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display:none"
+      id="EfbetBetPlacementComponent23-failed">
+      <h2>
+        <span>
+          Betslip
+        </span><a href="#" class="helpicon" behavior.id="NavigateToBetslipHelp"
+          behavior.autobind.navigatetobetsliphelp="onclick" behavior.navigatetobetsliphelp.helparea="help"
+          behavior.navigatetobetsliphelp.helpaction="rulebook" title="
+    Betslip help
+  ">
+          Betslip help
+        </a>
+      </h2>
+      <div class="betslip-inner">
+        <div id="EfbetBetPlacementComponent23-failed-bet-slip"></div>
+        <div class="betslip_overlay" id="EfbetBetPlacementComponent23-failed-overlay-msg">
+          <div class="betslip_overlay_message">
+            <div style="display:none;" id="EfbetBetPlacementComponent23-failed-0">
+              <div class="nbs-exclamation">
+                <span></span><strong>
+                  Log in needed
+                </strong><br><br>
+                Please log in to continue the bet placement process.
+              </div>
+            </div>
+            <div style="display:none;" id="EfbetBetPlacementComponent23-failed-1">
+              <div class="nbs-exclamation">
+                <span class="attention"></span>
+                Bet placement failed
+                <br><br>
+                We're sorry, but the bet placement has failed. Please contact customer support for further assistance.
+                <br><br>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bs-footer-buttons">
+          <a href="#" id="EfbetBetPlacementComponent23-failed-continue-betting" title="Continue"
+            behavior.id="ContinueBetting" behavior.autobind.continuebetting="onclick"
+            behavior.continuebetting.state="failed">
+            Continue
+          </a>
+          <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.async = true; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+        </div>
+      </div>
+    </div>
+    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display:none"
+      id="EfbetBetPlacementComponent23-unknown">
+      <h2>
+        <span>
+          Betslip
+        </span><a href="#" class="helpicon" behavior.id="NavigateToBetslipHelp"
+          behavior.autobind.navigatetobetsliphelp="onclick" behavior.navigatetobetsliphelp.helparea="help"
+          behavior.navigatetobetsliphelp.helpaction="rulebook" title="
+    Betslip help
+  ">
+          Betslip help
+        </a>
+      </h2>
+      <div id="EfbetBetPlacementComponent23-unknown-bet-slip"></div>
+      <div class="betslip_overlay">
+        <div class="betslip_overlay_message">
+          <div class="nbs-exclamation">
+            <span class="attention"></span>
+            <p class="msgtitle">
+              Page updated
+            </p>
+            <p class="msgdesc">
+              Page was updated while bet was being performed. Please, check you bet history to know if bet was placed.
+            </p>
+            <div class="bs-footer-buttons btncontinue">
+              <a href="#" id="EfbetBetPlacementComponent23-unknown-continue-betting" title="Continue"
+                behavior.id="ContinueBetting" behavior.autobind.continuebetting="onclick"
+                behavior.continuebetting.state="unknown">
+                Continue
+              </a>
+              <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.async = true; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

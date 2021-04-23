@@ -1,0 +1,450 @@
+<div class="betslip betplacement" id="EfbetBetPlacementComponent23" style="display: block;">
+  <xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display:none;"
+    id="EfbetBetPlacementComponent23-strings">
+    <string english="We can accept your bet with a stake amount of">We can accept your bet with a stake amount of:
+    </string>
+    <string english="Efbet is offering you a new price of">Efbet is offering you a new price of</string>
+  </xml>
+  <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display: none;">
+    <span id="EfbetBetPlacementComponent23-translate-total-stake">
+      Total Stake
+    </span><span id="EfbetBetPlacementComponent23-translate-free-balance">
+      Balance
+    </span><span id="EfbetBetPlacementComponent23-translate-total-estimated-return">
+      Estimated Return
+    </span><span id="EfbetBetPlacementComponent23-translate-stake">
+      Stake
+    </span><span id="EfbetBetPlacementComponent23-translate-estimated-return">
+      Est. Returns
+    </span><span id="EfbetBetPlacementComponent23-translate-selection">
+      Selection
+    </span><span id="EfbetBetPlacementComponent23-translate-hcp">
+      Hcp
+    </span><span id="EfbetBetPlacementComponent23-translate-price">
+      Price
+    </span><span id="EfbetBetPlacementComponent23-translate-total-price">
+      Total price
+    </span><span id="EfbetBetPlacementComponent23-translate-just-backed">
+      Just backed
+    </span><span id="EfbetBetPlacementComponent23-translate-at">
+      at
+    </span><span id="EfbetBetPlacementComponent23-translate-with">
+      with
+    </span><span id="EfbetBetPlacementComponent23-translate-to">
+      to
+    </span><span id="EfbetBetPlacementComponent23-translate-price-change">
+      Price change
+    </span><span id="EfbetBetPlacementComponent23-translate-band-change">
+      Band change
+    </span><span id="EfbetBetPlacementComponent23-translate-handicap-change">
+      Handicap change
+    </span><span id="EfbetBetPlacementComponent23-translate-ew-change">
+      Each Way terms change
+    </span><span id="EfbetBetPlacementComponent23-freeEx">
+      FREE!
+    </span><span id="EfbetBetPlacementComponent23-free">
+      FREE
+    </span><span id="EfbetBetPlacementComponent23-BetRef">
+      Bet Ref
+    </span><span id="EfbetBetPlacementComponent23-translate-just-placed-multiple-bets-with">
+      Just placed multiple bets with
+    </span><span id="EfbetBetPlacementComponent23-we-sorry-selection-has-failed">
+      We're sorry, but this bet selection has failed during bet placement.
+    </span><span id="EfbetBetPlacementComponent23-please-contact-customer-support">
+      Please contact customer support for further assistance on
+    </span><span id="EfbetBetPlacementComponent23-or">
+      or
+    </span><span id="EfbetBetPlacementComponent23-liveChat">
+      Live chat
+    </span><span id="EfbetBetPlacementComponent23-we-sorry-cannot-accept-such">
+      We're sorry but we can't accept such a stake at the moment,
+    </span><span id="EfbetBetPlacementComponent23-your-stake-has-been-changed">
+      your stake has been changed to a lower stake as you have your preferences set to accept re-offers for bets with
+      stake reductions automatically.
+    </span><span id="EfbetBetPlacementComponent23-betslip-rejected-default">
+      Bet slip was rejected
+    </span>
+  </div>
+  <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display:none"
+    id="EfbetBetPlacementComponent23-confirmation-required-before">
+    <h2>
+      <span>
+        Betslip
+      </span><a href="#" class="helpicon" behavior.id="NavigateToBetslipHelp"
+        behavior.autobind.navigatetobetsliphelp="onclick" behavior.navigatetobetsliphelp.helparea="help"
+        behavior.navigatetobetsliphelp.helpaction="rulebook" title="
+            Betslip help
+          ">
+        Betslip help
+      </a>
+    </h2>
+    <div class="betslip-inner">
+      <div id="EfbetBetPlacementComponent23-confirmation-required-before-bet-slip"></div>
+      <div class="bs-footer-buttons">
+        <a href="#" class="save-selection" title="
+                Save selection
+              " behavior.id="RejectBetSlip" behavior.autobind.rejectbetslip="onclick">
+          Save selection
+        </a><a href="#" class="proceed" title="Proceed" behavior.id="ConfirmBetSlip"
+          behavior.autobind.confirmbetslip="onclick">
+          Proceed
+        </a>
+      </div>
+    </div>
+  </div>
+  <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display: none; min-height: 240px;"
+    id="EfbetBetPlacementComponent23-waiting">
+    <div id="EfbetBetPlacementComponent23-waiting-bet-slip"></div>
+    <div class="betslip_overlay">
+      <div style="min-height:200px" class="betslip_overlay_message" id="EfbetBetPlacementComponent23-place-loading">
+        <p style="padding-top:70px;padding-bottom:20px;text-align:center;"><strong>
+            Placing bets, please wait...
+          </strong></p>
+        <p style="text-align:center;"><img src="/Areas/css/images/betplace-loader.gif"></p>
+      </div>
+    </div>
+  </div>
+  <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display: none; min-height: 200px;"
+    id="EfbetBetPlacementComponent23-confirmation-required">
+    <h2>
+      <span>
+        Betslip
+      </span><a href="#" class="helpicon" behavior.id="NavigateToBetslipHelp"
+        behavior.autobind.navigatetobetsliphelp="onclick" behavior.navigatetobetsliphelp.helparea="help"
+        behavior.navigatetobetsliphelp.helpaction="rulebook" title="
+            Betslip help
+          ">
+        Betslip help
+      </a>
+    </h2>
+    <div class="betslip-inner">
+      <div class="betslip_max_stake">
+        <p class="red_text" style="margin-bottom: 5px; display: block;"
+          id="EfbetBetPlacementComponent23-confirmation-required-8">Efbet is offering you a new price of 1.46</p>
+        <p class="red_text" style="margin-bottom:5px;display:none"
+          id="EfbetBetPlacementComponent23-confirmation-required-64">We can accept your bet with a stake amount of: €
+        </p>
+        <p class="red_text" style="margin-bottom:5px;display:none"
+          id="EfbetBetPlacementComponent23-confirmation-required-16"><strong>
+            Handicap has changed in the meantime.
+          </strong></p>
+        <p class="red_text" style="margin-bottom:5px;display:none"
+          id="EfbetBetPlacementComponent23-confirmation-required-32"><strong>
+            Band has changed in the meantime.
+          </strong></p>
+        <p class="red_text" style="margin-bottom:5px;display:none"
+          id="EfbetBetPlacementComponent23-confirmation-required-128"><strong>
+            Price has changed in the meantime.
+          </strong></p>
+        <p class="red_text" style="margin-bottom:5px;display:none"
+          id="EfbetBetPlacementComponent23-confirmation-required-512"><strong>
+            Potential return is higher than maximum takeout for the markets in this bet.
+          </strong></p>
+        <p class="red_text" style="margin-bottom:5px;display:none"
+          id="EfbetBetPlacementComponent23-confirmation-required-1024"><strong>
+            Potential return is higher than maximum takeout for the markets in this bet.
+          </strong></p>
+        <p class="red_text" style="margin-bottom:5px;display:none"
+          id="EfbetBetPlacementComponent23-confirmation-required-2048"><strong>
+            Each way terms have changed in the meantime.
+          </strong></p>
+        <p class="red_text" style="margin-bottom:5px;display:none"
+          id="EfbetBetPlacementComponent23-confirmation-required-4096"><strong></strong></p>
+        <div style="width:100%;height:100%" class="loading-numbers">
+          <div></div>
+        </div>
+        <div class="loading_numbers"><span><strong id="EfbetBetPlacementComponent23-grace-period-timer"></strong></span>
+        </div>
+      </div>
+      <div id="EfbetBetPlacementComponent23-confirmation-required-bet-slip">
+        <div class="bet_selections">
+          <p class="betslip_notification notification_price_change"><span class="left"><strong>2.00 </strong><strong>
+                Single</strong></span><strong></strong></p>
+          <div class="bet_selection no_margin_top bet_selection_price_change_state">
+            <div class="bet_multiple_selection"><span class="info_tooltip"><span>Under 0.5 @<span
+                    class="price_change_after">1.46</span></span><span>Cruz Azul Women Goals Over / Under
+                  0.5</span><span>Tigres De La Uanl Women v Cruz Azul Women</span></span><span class="twitter_betslip"
+                id="EfbetBetPlacementComponent23-twitterButtonSpan1943108233.11"></span></div>
+            <p class="betslip_text_margin">Stake: €2.00 </p>
+            <p class="betslip_text_margin">Est. Returns: €2.92 </p>
+            <div class="price_change_message">
+              Price change
+              : 1.47
+              to
+              1.46</div>
+          </div>
+        </div>
+        <div class="bet_placement">
+          <p><strong>Total Stake: €2.00</strong></p>
+          <p>Estimated Return: €2.92</p>
+          <div class="bet_placement_confirmation"></div>
+        </div>
+      </div>
+      <div class="bs-footer-buttons">
+        <div class="place_bet place_bet_block btnYellow" style="float:left;" title="
+                Confirm Bets
+              " behavior.id="ConfirmBetSlip" behavior.autobind.confirmbetslip="onclick"><span><strong
+              style="font-size: 16px;">Confirm Bets</strong></span></div>
+      </div>
+      <div class="betslip_overlay" id="EfbetBetPlacementComponent23-confirmation-required-16384" style="display: none;">
+        <div class="betslip_overlay_message overlay_message_insufficient_funds">
+          <div class="nbs-exclamation">
+            <span></span><strong>Insufficient funds:</strong>
+            You need to top up your balance with
+            <strong><span id="EfbetBetPlacementComponent23-topup-amount"></span></strong>
+            to place your bet.
+          </div>
+          <div id="EfbetBetPlacementComponent23-confirmation-required-16384-credit-card-grace-period">
+            <p class="timer red_text"
+              id="EfbetBetPlacementComponent23-confirmation-required-16384-credit-card-timer-message"><span><strong
+                  id="EfbetBetPlacementComponent23grace-period-timer"></strong></span></p>
+          </div>
+          <div style="display:none" id="EfbetBetPlacementComponent23-confirmation-required-16384-credit-card">
+            <span class="overlay_border"></span>
+            <div class="overlay_half_width_centered">
+              <p class="small_text">
+                * <span id="EfbetBetPlacementComponent23-topup-minamount">€</span> Min Deposit
+              </p>
+            </div>
+            <div class="overlay_full_width">
+              <div class="overlay_half_width">
+                <p>
+                  Card number
+                </p>
+                <input disabled="" class="overlay_insufficient_funds_field" type="text"
+                  id="EfbetBetPlacementComponent23-security-card-number" title="
+                        Default credit card
+                      ">
+              </div>
+              <div class="overlay_half_width">
+                <p>
+                  CV2
+                </p>
+                <input class="overlay_insufficient_funds_field focusblur" value="" type="text" size="3" maxlength="3"
+                  id="EfbetBetPlacementComponent23-security-code" title="
+                        Security code (CV2)
+                      ">
+              </div>
+              <input class="overlay_submit" type="submit" id="EfbetBetPlacementComponent23-deposit-confirm"
+                behavior.id="ConfirmBetSlip" behavior.autobind.confirmbetslip="onclick" title="
+                      Deposit and Place Bet
+                    " value="
+                      Deposit &amp; Place Bet
+                    ">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display:none"
+    id="EfbetBetPlacementComponent23-placed">
+    <h2>
+      <span>
+        Betslip
+      </span><a href="#" class="helpicon" behavior.id="NavigateToBetslipHelp"
+        behavior.autobind.navigatetobetsliphelp="onclick" behavior.navigatetobetsliphelp.helparea="help"
+        behavior.navigatetobetsliphelp.helpaction="rulebook" title="
+            Betslip help
+          ">
+        Betslip help
+      </a>
+    </h2>
+    <div class="betslip-inner">
+      <h5 class="receipt"><strong>
+          Bet placed
+        </strong></h5>
+      <div id="EfbetBetPlacementComponent23-placed-bet-slip"></div>
+      <div class="bs-footer-buttons">
+        <a href="#" id="EfbetBetPlacementComponent23-placed-continue-betting" title="Continue"
+          behavior.id="ContinueBetting" behavior.autobind.continuebetting="onclick"
+          behavior.continuebetting.state="placed">
+          Continue
+        </a>
+        <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.async = true; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+      </div>
+    </div>
+  </div>
+  <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display: block;"
+    id="EfbetBetPlacementComponent23-rejected">
+    <h2>
+      <span>
+        Betslip
+      </span><a href="#" class="helpicon" behavior.id="NavigateToBetslipHelp"
+        behavior.autobind.navigatetobetsliphelp="onclick" behavior.navigatetobetsliphelp.helparea="help"
+        behavior.navigatetobetsliphelp.helpaction="rulebook" title="
+            Betslip help
+          ">
+        Betslip help
+      </a>
+    </h2>
+    <div class="betslip-inner">
+      <div id="EfbetBetPlacementComponent23-rejected-bet-slip">
+        <div class="bet_selections">
+          <div class="bet_selection bet_selection_normal_state">
+            <p class="green bet_price_message"><span class="left"> Single</span></p>
+            <div class="bet_multiple_selection"><span class="info_tooltip"><span>Under 0.5 @1.47</span><span>Cruz Azul
+                  Women Goals Over / Under 0.5</span><span>Tigres De La Uanl Women v Cruz Azul Women</span></span><span
+                class="twitter_betslip" id="EfbetBetPlacementComponent23-twitterButtonSpan1943108233.14"></span></div>
+            <div class="betslip_twitter_div"><span class="twitter_iframe"
+                id="EfbetBetPlacementComponent23-twitterButtonMultipleSpan04"></span><span class="span_stake">Stake:
+                <span>€ 2.00</span></span><span class="span_est_return">Est. Returns: <span>€ 2.94</span></span></div>
+          </div>
+        </div>
+        <div class="bet_placement">
+          <p><strong>Total Stake: €2.00</strong></p>
+          <p>Estimated Return: €2.94</p>
+          <div class="bet_placement_confirmation"></div>
+        </div>
+      </div>
+      <div class="betslip_overlay" id="EfbetBetPlacementComponent23-rejected-overlay-msg" style="display: block;">
+        <div class="betslip_overlay_message overlay_message_loging">
+          <div>
+            <div style="display:none;" id="EfbetBetPlacementComponent23-rejected-2">
+              <div class="nbs-exclamation">
+                <span class="attention"></span>
+                Bet placement failed
+                <br><br>
+                Bet placement manually rejected.
+              </div>
+            </div>
+            <div style="display:none;" id="EfbetBetPlacementComponent23-rejected-3">
+              <div style="display:none;" id="EfbetBetPlacementComponent23-rejected-3-4096">
+                <div class="nbs-exclamation">
+                  <span class="attention"></span>
+                  Insufficient funds:
+
+                  You need to top up your balance with
+                  <strong><span id="EfbetBetPlacementComponent23-topup-amount-nocard"></span></strong>
+                  to place your bet.
+                </div>
+                <span class="overlay_border"></span>
+                <p>
+                  You have not yet added a card for
+                  <br>
+                  payment to your account
+                </p>
+                <div class="overlay_full_width"><input class="overlay_submit " type="submit" title="
+                          Setup a Card Now
+                        " behavior.id="ContinueToSetCard" behavior.autobind.continuetosetcard="onclick" value="
+                          Setup a Card Now
+                        "></div>
+              </div>
+              <div style="display:none;" id="EfbetBetPlacementComponent23-rejected-3-other">
+                <div class="nbs-exclamation">
+                  <span class="attention"></span>
+                  Rejected
+                  <br><br><span style="display:none" id="EfbetBetPlacementComponent23-rejected-3-text"></span><br>
+                </div>
+              </div>
+            </div>
+            <div style="display:none;" id="EfbetBetPlacementComponent23-rejected-4">
+              <div class="nbs-exclamation">
+                <span class="attention"></span>
+                Bet placement failed
+                <br><br>
+                We're sorry, but the bet placement has failed. Please contact customer support for further assistance.
+                <span style="display:none" id="EfbetBetPlacementComponent23-rejected-4-text"></span>
+              </div>
+            </div>
+            <div style="display: block;" id="EfbetBetPlacementComponent23-rejected-5">
+              <div class="nbs-exclamation">
+                <span class="attention"></span>
+                Timed out
+                <br><br>
+                The processing time of your stake expired, please try again.
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bs-footer-buttons"><a href="#" title="Continue" behavior.id="ContinueBetting"
+          behavior.autobind.continuebetting="onclick">
+          Continue
+        </a></div>
+    </div>
+  </div>
+  <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display:none"
+    id="EfbetBetPlacementComponent23-failed">
+    <h2>
+      <span>
+        Betslip
+      </span><a href="#" class="helpicon" behavior.id="NavigateToBetslipHelp"
+        behavior.autobind.navigatetobetsliphelp="onclick" behavior.navigatetobetsliphelp.helparea="help"
+        behavior.navigatetobetsliphelp.helpaction="rulebook" title="
+            Betslip help
+          ">
+        Betslip help
+      </a>
+    </h2>
+    <div class="betslip-inner">
+      <div id="EfbetBetPlacementComponent23-failed-bet-slip"></div>
+      <div class="betslip_overlay" id="EfbetBetPlacementComponent23-failed-overlay-msg">
+        <div class="betslip_overlay_message">
+          <div style="display:none;" id="EfbetBetPlacementComponent23-failed-0">
+            <div class="nbs-exclamation">
+              <span></span><strong>
+                Log in needed
+              </strong><br><br>
+              Please log in to continue the bet placement process.
+            </div>
+          </div>
+          <div style="display:none;" id="EfbetBetPlacementComponent23-failed-1">
+            <div class="nbs-exclamation">
+              <span class="attention"></span>
+              Bet placement failed
+              <br><br>
+              We're sorry, but the bet placement has failed. Please contact customer support for further assistance.
+              <br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bs-footer-buttons">
+        <a href="#" id="EfbetBetPlacementComponent23-failed-continue-betting" title="Continue"
+          behavior.id="ContinueBetting" behavior.autobind.continuebetting="onclick"
+          behavior.continuebetting.state="failed">
+          Continue
+        </a>
+        <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.async = true; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+      </div>
+    </div>
+  </div>
+  <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display:none"
+    id="EfbetBetPlacementComponent23-unknown">
+    <h2>
+      <span>
+        Betslip
+      </span><a href="#" class="helpicon" behavior.id="NavigateToBetslipHelp"
+        behavior.autobind.navigatetobetsliphelp="onclick" behavior.navigatetobetsliphelp.helparea="help"
+        behavior.navigatetobetsliphelp.helpaction="rulebook" title="
+            Betslip help
+          ">
+        Betslip help
+      </a>
+    </h2>
+    <div id="EfbetBetPlacementComponent23-unknown-bet-slip"></div>
+    <div class="betslip_overlay">
+      <div class="betslip_overlay_message">
+        <div class="nbs-exclamation">
+          <span class="attention"></span>
+          <p class="msgtitle">
+            Page updated
+          </p>
+          <p class="msgdesc">
+            Page was updated while bet was being performed. Please, check you bet history to know if bet was placed.
+          </p>
+          <div class="bs-footer-buttons btncontinue">
+            <a href="#" id="EfbetBetPlacementComponent23-unknown-continue-betting" title="Continue"
+              behavior.id="ContinueBetting" behavior.autobind.continuebetting="onclick"
+              behavior.continuebetting.state="unknown">
+              Continue
+            </a>
+            <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.async = true; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
